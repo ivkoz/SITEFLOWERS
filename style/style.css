@@ -1,0 +1,98 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+
+}
+
+.inputs-block{
+    position: relative;
+    z-index: 3;
+    border-radius: 15px;
+    background: #FBF7F6;
+    display: flex;
+    width: 800px;
+    height: 351px;
+    margin: 0 auto;
+}
+
+.background-img {
+    display: block;
+ position: relative;
+ top: -2px;
+ height: 200px;
+ background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1887 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(255, 255, 255, 1)" d="M 0 0 C 477 0 477 110 954 110 L 954 110 L 954 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 953 110 C 1420 110 1420 0 1887 0 L 1887 0 L 1887 0 L 953 0 Z" stroke-width="0"></path> </svg>');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+ 
+
+.block-img{
+    width: 520px;
+    height: 351px;
+    background: url(../img/pencil.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.input{
+    border-bottom: 1px solid #371030;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #FBF7F6;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #371030;
+}
+
+h4{
+    font-size: 16px;
+    color: #371030;
+}
+
+.input_name, .input_phone{
+    width: 140px;
+}
+
+.left-side{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacts{
+    display: flex;
+}
+
+.input-flower{
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 495.055px;
+    height: 495.055px;
+    transform: rotate(-108.663deg);
+}
+
+.image-flower{
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 495.055px;
+    height: 495.055px;
+    transform: rotate(-108.663deg);
+    background: url(../img/flower.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
